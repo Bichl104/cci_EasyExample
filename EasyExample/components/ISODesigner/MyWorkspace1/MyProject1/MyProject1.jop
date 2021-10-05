@@ -67,7 +67,7 @@
 					<Value>Lucida Console</Value>
 				</Property>
 				<Property Name="Size">
-					<Value>12</Value>
+					<Value>9</Value>
 				</Property>
 				<Property Name="Height">
 					<Value>16</Value>
@@ -88,7 +88,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="PointWidth">
-					<Value>9</Value>
+					<Value>7</Value>
 				</Property>
 				<Property Name="Width">
 					<Value>12</Value>
@@ -124,7 +124,7 @@
 					<Value>Lucida Console</Value>
 				</Property>
 				<Property Name="Size">
-					<Value>18</Value>
+					<Value>14</Value>
 				</Property>
 				<Property Name="Height">
 					<Value>24</Value>
@@ -145,7 +145,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="PointWidth">
-					<Value>12</Value>
+					<Value>9</Value>
 				</Property>
 				<Property Name="Width">
 					<Value>16</Value>
@@ -178,7 +178,7 @@
 		<Object Class="CLineStyle" JVS-ID="24000" ObjectName="LineAttributes_Border" Pinned="FALSE">
 			<PropertySheet Name="LineStyle" ID="68696">
 				<Property Name="Color">
-					<Value>39321</Value>
+					<Value>255</Value>
 				</Property>
 				<Property Name="Style">
 					<Value>0</Value>
@@ -214,10 +214,10 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="BackColor">
-					<Value>10092543</Value>
+					<Value>255</Value>
 				</Property>
 				<Property Name="ForeColor">
-					<Value>10092543</Value>
+					<Value>255</Value>
 				</Property>
 				<Property Name="TransparentBackground">
 					<Value>1</Value>
@@ -663,10 +663,10 @@
 		<Object Class="CButton" Name="Button" ObjectName="Button_Reset_Tageszaehler" Pinned="FALSE" JVS-ID="6002">
 			<PropertySheet Name="Button">
 				<Property Name="BackColor">
-					<Value>10079436</Value>
+					<Value>16777215</Value>
 				</Property>
 				<Property Name="BorderColor">
-					<Value>6723993</Value>
+					<Value>3342591</Value>
 				</Property>
 				<Property Name="KeyCode">
 					<Value>1</Value>
@@ -732,10 +732,10 @@
 		<Object Class="CButton" Name="Button" ObjectName="Button_MinusMinus" Pinned="FALSE" JVS-ID="6003">
 			<PropertySheet Name="Button">
 				<Property Name="BackColor">
-					<Value>10079436</Value>
+					<Value>16777215</Value>
 				</Property>
 				<Property Name="BorderColor">
-					<Value>6723993</Value>
+					<Value>39168</Value>
 				</Property>
 				<Property Name="KeyCode">
 					<Value>1</Value>
@@ -2457,7 +2457,7 @@
 					<Value>16777215</Value>
 				</Property>
 				<Property Name="Color">
-					<Value>0</Value>
+					<Value>65535</Value>
 				</Property>
 				<Property Name="FillType">
 					<Value>0</Value>
@@ -2466,7 +2466,7 @@
 					<Value>11</Value>
 				</Property>
 				<Property Name="TickColor">
-					<Value>16711680</Value>
+					<Value>65535</Value>
 				</Property>
 				<Property Name="TickLength">
 					<Value>7</Value>
@@ -2593,7 +2593,7 @@
 					<Value>16777215</Value>
 				</Property>
 				<Property Name="Color">
-					<Value>0</Value>
+					<Value>65535</Value>
 				</Property>
 				<Property Name="FillType">
 					<Value>0</Value>
@@ -2602,7 +2602,7 @@
 					<Value>11</Value>
 				</Property>
 				<Property Name="TickColor">
-					<Value>16711680</Value>
+					<Value>65535</Value>
 				</Property>
 				<Property Name="TickLength">
 					<Value>7</Value>
