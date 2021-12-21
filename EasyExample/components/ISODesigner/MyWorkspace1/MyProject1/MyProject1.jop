@@ -137,6 +137,51 @@
 				</Value>
 			</Property>
 		</Object>
+		<Object Class="CMacro" JVS-ID="5" ObjectName="Macro_5" Pinned="FALSE">
+			<Commands>
+				<Command id="160" subid="-1">
+					<Params>
+						<Param Name="Object ID" Type="3">3001 - Container_Tageszaehler</Param>
+						<Param Name="Show" Type="14">False</Param>
+					</Params>
+				</Command>
+			</Commands>
+			<Property Name="Comment">
+				<Value>
+					<![CDATA[AAA=]]>
+				</Value>
+			</Property>
+		</Object>
+		<Object Class="CMacro" JVS-ID="6" ObjectName="Macro_6" Pinned="FALSE">
+			<Commands>
+				<Command id="160" subid="-1">
+					<Params>
+						<Param Name="Object ID" Type="3">3001 - Container_Tageszaehler</Param>
+						<Param Name="Show" Type="14">False</Param>
+					</Params>
+				</Command>
+			</Commands>
+			<Property Name="Comment">
+				<Value>
+					<![CDATA[AAA=]]>
+				</Value>
+			</Property>
+		</Object>
+		<Object Class="CMacro" JVS-ID="7" ObjectName="Macro_7" Pinned="FALSE">
+			<Commands>
+				<Command id="160" subid="-1">
+					<Params>
+						<Param Name="Object ID" Type="3">3001 - Container_Tageszaehler</Param>
+						<Param Name="Show" Type="14">True</Param>
+					</Params>
+				</Command>
+			</Commands>
+			<Property Name="Comment">
+				<Value>
+					<![CDATA[AAA=]]>
+				</Value>
+			</Property>
+		</Object>
 		<Object Class="CFontStyle" JVS-ID="23000" ObjectName="FontAttributes_23000" Pinned="FALSE">
 			<PropertySheet Name="Font" ID="68816">
 				<Property Name="Name">
@@ -982,7 +1027,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="AutoAdjustTextarea">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="3DStyle">
 					<Value>0</Value>
@@ -1085,7 +1130,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="AutoAdjustTextarea">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="3DStyle">
 					<Value>0</Value>
@@ -1188,7 +1233,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="AutoAdjustTextarea">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="3DStyle">
 					<Value>0</Value>
@@ -1221,6 +1266,38 @@
 				<Event>
 					<Property Name="ID">
 						<Value>
+							<![CDATA[24]]>
+						</Value>
+					</Property>
+					<Property Name="Name">
+						<Value>
+							<![CDATA[OnKeyPress]]>
+						</Value>
+					</Property>
+					<Property Name="Param">
+						<Value>
+							<![CDATA[]]>
+						</Value>
+					</Property>
+					<Property Name="Macros">
+						<Value>
+							<![CDATA[6]]>
+						</Value>
+					</Property>
+					<Property Name="Conditions">
+						<Value>
+							<![CDATA[]]>
+						</Value>
+					</Property>
+					<Property Name="KeyCode">
+						<Value>
+							<![CDATA[0]]>
+						</Value>
+					</Property>
+				</Event>
+				<Event>
+					<Property Name="ID">
+						<Value>
 							<![CDATA[25]]>
 						</Value>
 					</Property>
@@ -1236,7 +1313,7 @@
 					</Property>
 					<Property Name="Macros">
 						<Value>
-							<![CDATA[3]]>
+							<![CDATA[7]]>
 						</Value>
 					</Property>
 					<Property Name="Conditions">
@@ -1291,7 +1368,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="AutoAdjustTextarea">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="3DStyle">
 					<Value>0</Value>
@@ -4129,6 +4206,11 @@
 				<Property Name="Locked">
 					<Value>0</Value>
 				</Property>
+				<Property Name="Comment">
+					<Value>
+						<![CDATA[AAA=]]>
+					</Value>
+				</Property>
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
@@ -4148,6 +4230,9 @@
 				<Property Name="Name">
 					<Value>Text</Value>
 				</Property>
+				<Property Name="TabIndex">
+					<Value>-1</Value>
+				</Property>
 				<Property Name="Transform">
 					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(1.0000000000000000)</Value>
 				</Property>
@@ -4166,6 +4251,9 @@
 				</Property>
 				<Property Name="Name">
 					<Value>Text</Value>
+				</Property>
+				<Property Name="TabIndex">
+					<Value>-1</Value>
 				</Property>
 				<Property Name="Transform">
 					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(14.5000000000000000)</Value>
@@ -4230,6 +4318,9 @@
 				<Property Name="Name">
 					<Value>Text</Value>
 				</Property>
+				<Property Name="TabIndex">
+					<Value>-1</Value>
+				</Property>
 				<Property Name="Transform">
 					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(9.0000000000000000)</Value>
 				</Property>
@@ -4248,6 +4339,9 @@
 				</Property>
 				<Property Name="Name">
 					<Value>Text</Value>
+				</Property>
+				<Property Name="TabIndex">
+					<Value>-1</Value>
 				</Property>
 				<Property Name="Transform">
 					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(-1.0000000000000000)</Value>
