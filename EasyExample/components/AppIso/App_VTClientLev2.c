@@ -185,8 +185,9 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 
 	CheckZiel(pButtonData->u8Instance);
 
+	if(Gesamtzaehler <= 3)
 
-	IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, Gesamtzaehler, 440, 100, 500);
+	IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, Gesamtzaehler, 440, 10, 50);
 
 
 
